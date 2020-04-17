@@ -10,3 +10,21 @@ window.onclick = function(e) {
         }
     }
 }
+
+function changeSizeToMobile() {
+    var el = document.getElementById("resizeme");
+    if (el) {
+        el.style.width = "480px";
+    }
+
+    return false;
+}
+
+function changeSizeToPC() {
+    var el = document.getElementById("resizeme");
+    if (el) {
+        el.style.width = "auto";
+    }
+
+    return false;
+}

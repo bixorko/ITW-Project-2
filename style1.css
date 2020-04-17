@@ -5,7 +5,12 @@ html {
 body {
     margin:0;
     padding:0;
-    height:100%;
+}
+
+#resizeme{
+    width: auto;
+    height: auto;
+    transition: width 1s;
 }
 
 * {
@@ -17,10 +22,14 @@ body {
     list-style:none;
     margin:0;
     padding:0;
+    position: fixed;
     text-align:center;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    top: 0;
+    width: 100%;
+}
+
+.navigacia img {
+    border-radius: 50%;
 }
 
 .navigacia * {
@@ -63,10 +72,38 @@ img {
     background-color: #b49f9f;
 }
 
-#home {
+#about {
     padding-top: 150px;
     align-items: center;
     display: flex;
+    padding-bottom: 175px;
+}
+
+#projects {
+    padding-top: 50px;
+    align-items: center;
+    display: flex;
+    padding-bottom: 175px;
+}
+
+#education {
+    align-items: center;
+    display: flex;
+    padding-bottom: 175px;
+}
+
+#home img {
+    border-radius: 50%;
+}
+
+#home {
+    padding-top: 150px;
+    background: #000000;
+    height: 95vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1.headername {
@@ -76,8 +113,66 @@ h1.headername {
     font-family: Helvetica, sans-serif;
 }
 
+h2#lolofon {
+    padding-top: 75px;
+    padding-bottom: 5px;
+    color: #000000;
+    font-size: 30px;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+}
+
+#projects p {
+    font-family: Helvetica, Sans-Serif;
+}
+
+#projects h3 {
+    font-family: Helvetica, Sans-Serif;
+}
+
+#projects div.homediv{
+    padding-bottom: 150px;
+}
+
+#education div.homediv{
+    padding-bottom: 150px;
+}
+
+h2#lolofon2 {
+    padding-top: 75px;
+    padding-bottom: 5px;
+    color: #000000;
+    font-size: 30px;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+}
+
+h2#lolofon3 {
+    padding-top: 75px;
+    padding-bottom: 5px;
+    color: #000000;
+    font-size: 30px;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+}
+
+h3.headerclass{
+    color: gray;
+    font-size: 25px;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+}
+
 div.homekontakt {
     color: #656666;
+}
+
+#about img {
+    border-radius: 50%;
+}
+
+#projects img {
+    border-radius: 50%;
 }
 
 div.homekontakt a{
@@ -90,11 +185,42 @@ div.homekontakt a:hover{
     cursor: pointer;
 }
 
-#home div.homediv {
+#about div.homediv {
     width: 50%;
     margin: 0 auto;
     line-height: 25px;
-    padding-left: 175px;
+}
+
+#projects div.haha{
+    padding-top: 150px;
+}
+
+#projects *{
+    background: black;
+}
+
+#projects div.homediv {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+#education div.homediv {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+#home div.homediv {
+    margin: 0 auto;
+    line-height: 25px;
+    padding-bottom: 350px;
+    vertical-align: center;
+}
+
+
+#home * {
+    background: black;
 }
 
 .haha{
@@ -106,6 +232,18 @@ div.homekontakt a:hover{
     overflow: hidden;
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#about h1 {
+    line-height: 28px;
+}
+
+#projects h1 {
+    line-height: 28px;
+}
+
+#education h1 {
+    line-height: 28px;
 }
 
 .navbar a {
@@ -139,8 +277,8 @@ div.homekontakt a:hover{
 }
 
 .dropdown-content {
-    position: fixed; /* Set the navbar to fixed position */
-    top: 47px; /* Position the navbar at the top of the page */
+    position: fixed;
+    top: 47px;
     display: none;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -165,9 +303,73 @@ div.homekontakt a:hover{
     display: block;
 }
 
-hr.rounded {
-    border-top: 8px solid #bbb;
-    border-radius: 5px;
+.homediv ul li {
+    display: inline;
+    list-style-type: circle;
+    list-style-image: url(pc.jpeg);
+}
+
+#education img{
+    border-radius: 50%;
 }
 
 
+#bloc1, #bloc2, #bloc3
+{
+    display:inline;
+}
+
+#education{
+    font-family: Helvetica, Sans-Serif;
+}
+
+#bloc1{
+    padding-right: 18px;
+}
+
+#bloc3{
+    padding-left: 300px;
+}
+
+#education p.abouttext {
+    padding-bottom: 100px;
+}
+
+#bloc12, #bloc22, #bloc32
+{
+    display:inline;
+}
+
+#bloc13, #bloc23, #bloc33
+{
+    display:inline;
+}
+
+#bloc12{
+    padding-right: 18px;
+}
+
+#bloc32{
+    padding-left: 300px;
+}
+
+#bloc13{
+    padding-right: 18px;
+}
+
+#bloc33{
+    padding-left: 300px;
+}
+
+#block_container, #block_container2, #block_container3{
+    padding-bottom: 25px;
+}
+
+footer {
+    display: block;
+    text-align: center;
+    line-height: normal;
+    font-family: Helvetica, Sans-Serif;
+    text-decoration: none;
+    font-size: 12px;
+}
