@@ -113,7 +113,7 @@ h1.headername {
     font-family: Helvetica, sans-serif;
 }
 
-h2#lolofon {
+h2#headerforid {
     padding-top: 75px;
     padding-bottom: 5px;
     color: #000000;
@@ -138,7 +138,7 @@ h2#lolofon {
     padding-bottom: 150px;
 }
 
-h2#lolofon2 {
+h2#headerforid2 {
     padding-top: 75px;
     padding-bottom: 5px;
     color: #000000;
@@ -147,7 +147,7 @@ h2#lolofon2 {
     font-family: Helvetica, sans-serif;
 }
 
-h2#lolofon3 {
+h2#headerforid3 {
     padding-top: 75px;
     padding-bottom: 5px;
     color: #000000;
@@ -191,7 +191,7 @@ div.homekontakt a:hover{
     line-height: 25px;
 }
 
-#projects div.haha{
+#projects div.basiccl{
     padding-top: 150px;
 }
 
@@ -223,7 +223,7 @@ div.homekontakt a:hover{
     background: black;
 }
 
-.haha{
+.basiccl{
     color: #a3a3a3;
     display: inline-flex;
 }
